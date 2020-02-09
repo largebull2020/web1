@@ -3,6 +3,17 @@
 <head>
   <title>WEB1 - HTML</title>
   <meta charset="utf-8">
+<!-- 웹사이트 방문자 분석기 -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-157970627-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-157970627-1');
+</script>
+<!-- 웹사이트 방문자 분석기 -->
 </head>
 <body>
   <h1><a href="index.html">WEB</a></h1>
@@ -33,6 +44,7 @@
     HTML elements are the building blocks of HTML pages. Wigth HTML constructs,
     images and other objects, such as interactive forms,
     may be embedded int the rendered page.</p>
+  <!-- 댓글 기능 추가하기.
   <p>
     <div id="disqus_thread"></div>
     <script>
@@ -48,5 +60,23 @@
         comments powered by Disqus.</a>
     </noscript>
   </p>
+-->
+<!-- 채팅 기능 추가하기 -->
+  <p>
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/5e3d47d7a89cda5a1884ae3d/default';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
+  </p>
+<!-- 채팅기능 추가하기-->
 </body>
 </html>
